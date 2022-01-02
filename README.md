@@ -1,1 +1,1 @@
-# IMBD
+# IMDb
