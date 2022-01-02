@@ -1,0 +1,271 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;1,300;1,400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: black;
+}
+
+h2 {
+    width: 100%;
+    font-size: 2rem;
+    padding-bottom: 2rem;
+    color: #f5c518;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 1.5rem;
+    background-color: #121212;
+    justify-content: center;
+}
+
+.lien {
+    text-decoration-line: none;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+    padding: 1rem 2rem;
+    margin-right: 0.5rem;
+    border-radius: 0.5rem;
+}
+
+.lien:hover {
+    background-color: rgba(169, 169, 169, 0.13);
+}
+
+#imdb {
+    background-color: #f5c518;
+    color: black;
+    font-size: 2rem;
+    border-radius: 0.4rem;
+    padding: 0.25rem 1rem;
+    text-decoration-line: none;
+    font-weight: bold;
+    margin-right: 0.5rem;
+}
+
+input[type=text] {
+    width: 70rem;
+    border: none;
+    padding: 0.375em 0 0.375rem 0.5rem;
+}
+
+#all {
+    background-color: white;
+    color: black;
+    font-size: 1.5rem;
+    padding: 0.27rem 1.5rem;
+    border-radius: 0.5rem 0 0 0.5rem ;
+    font-weight: bold;
+}
+
+#search {
+    background-color: white;
+    color: black;
+    font-size: 1.5rem;
+    padding: 0.4rem 0.50rem;
+    margin-right: 0.5rem;
+    border-radius: 0 0.5rem 0.5rem 0;
+}
+
+#line {
+    border: 0.01rem solid gray;
+    height: 3rem;
+    margin-right: 0.5rem;
+}
+
+.font {
+    margin-right: 1rem;
+    color: gray;
+}
+
+#head {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 1rem auto;
+    width: 68%;
+}
+
+#today {
+    border: 0.1rem solid white;
+}
+
+#slide {
+    width: 65%;
+    height: 55rem;
+    background-image: url("../img/betty-white.jfif");
+    background-size: cover;
+    cursor: pointer;
+}
+
+#next {
+    width: 35%;
+    height: 55rem;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding-top: 1rem;
+    padding-left: 1rem;
+}
+
+#today {
+    width: 65%;
+    height: 30rem;
+    margin-top: 7.5rem;
+}
+
+.watch {
+    width: 98%;
+    height: 28%;
+    display: flex;
+    align-items: center;
+}
+
+#trailer {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-top: 1rem;
+}
+
+.img {
+    background-image: url("../img/img-watch.PNG");
+    width: 88px;
+    height: 130px;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.circle {
+    border: 0.1rem solid white;
+    width: 3.5rem;
+    height: 3.5rem;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem;
+}
+
+.circle:hover {
+    color: #f5c518;
+    border: 0.1rem solid #f5c518;
+}
+
+.title {
+    font-size: 1.5rem;
+}
+
+.title + span {
+    font-size: 1.4rem;
+    color: gray;
+}
+
+#first {
+    background: linear-gradient(rgba(144, 144, 144, 0.11) 0%, rgba(0,0,0,0.29735644257703087) 100%);
+}
+
+#left, #right {
+    font-size: 4.5rem;
+    border: 0.1rem solid white;
+    width: 5.5%;
+    text-align: center;
+    padding: 0.5rem;
+    border-radius: 0.4rem;
+    background-color: rgba(0, 0, 0, 0.53);
+    cursor: pointer;
+}
+
+#left:hover, #right:hover {
+    color: #f5c518;
+}
+
+#arrow {
+    display: flex;
+    margin-top: 18rem;
+}
+
+#left {
+    margin-right: 75rem;
+}
+
+#circle-name {
+    border: 0.1rem solid white;
+    width: 7rem;
+    height: 7rem;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    margin-right: 1rem;
+}
+
+#foot {
+    height: 25rem;
+    margin-top: 5.4rem;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 1rem;
+    background: linear-gradient(0deg, black 0%, rgba(0, 0, 0, 0.58) 80%);
+
+}
+
+#imdb-img {
+    background-image: url("../img/imdb.jfif");
+    width: 15rem;
+    height: 25rem;
+    cursor: default;
+}
+
+#add {
+    width: 5rem;
+    height: 5rem;
+    background-color: rgba(0, 0, 0, 0.61);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#add:hover {
+    background-color: rgba(0, 0, 0, 0.31);
+}
+
+#add-color {
+    color: white;
+    font-size: 2rem;
+}
+
+#name {
+    width: 60%;
+    display: flex;
+    margin-top: 15rem;
+    margin-left: 1rem;
+    flex-wrap: wrap;
+}
+
+#circle-name + p {
+    font-size: 2.5rem;
+    width: 80%;
+}
+
+#circle-name + p > span {
+    font-size: 1.7rem;
+    color: gray;
+}
+
+#circle-name:hover {
+    border: 0.1rem solid #f5c518;
+}
