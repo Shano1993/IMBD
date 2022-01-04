@@ -99,10 +99,6 @@ input[type=text] {
     width: 68%;
 }
 
-#today {
-    border: 0.1rem solid white;
-}
-
 #slide {
     width: 65%;
     height: 55rem;
@@ -125,6 +121,17 @@ input[type=text] {
     width: 65%;
     height: 30rem;
     margin-top: 7.5rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#titleToday {
+    width: 100%;
+}
+
+#titleToday > h2 {
+    font-size: 3rem;
+    width: 100%;
 }
 
 .watch {
@@ -138,6 +145,11 @@ input[type=text] {
     font-size: 2rem;
     font-weight: bold;
     margin-top: 1rem;
+    cursor: pointer;
+}
+
+#trailer:hover {
+    color: #f5c518;
 }
 
 .img {
@@ -162,15 +174,18 @@ input[type=text] {
 .circle:hover {
     color: #f5c518;
     border: 0.1rem solid #f5c518;
+    cursor: pointer;
 }
 
 .title {
     font-size: 1.5rem;
+    cursor: pointer;
 }
 
 .title + span {
     font-size: 1.4rem;
     color: gray;
+    cursor: pointer;
 }
 
 #first {
@@ -237,6 +252,7 @@ input[type=text] {
     display: flex;
     align-items: center;
     justify-content: center;
+    cursor: pointer;
 }
 
 #add:hover {
@@ -268,4 +284,59 @@ input[type=text] {
 
 #circle-name:hover {
     border: 0.1rem solid #f5c518;
+}
+
+#today {
+    justify-content: space-around;
+}
+
+.today {
+    width: 48%;
+    height: 24rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.today > p {
+    font-size: 1.7rem;
+}
+
+.film {
+    height: 20rem;
+    width: 33.3%;
+}
+
+#filmOne {
+    background-image: url("../img/batman.jpg");
+    background-size: cover;
+}
+
+#filmTwo {
+    background-image: url("../img/ironMan.jpg");
+    background-size: cover;
+    border-left: 0.2rem solid rgba(255, 255, 255, 0.78);
+    border-right: 0.2rem solid rgba(255, 255, 255, 0.78);
+}
+
+#filmThree {
+    background-image: url("../img/spiderMan.jpg");
+    background-size: cover;
+}
+
+#filmFour {
+    background-image: url("../img/scream.jpg");
+    background-size: cover;
+}
+
+#filmFive {
+    background-image: url("../img/himyf.jpg");
+    background-size: cover;
+    border-left: 0.2rem solid rgba(255, 255, 255, 0.78);
+    border-right: 0.2rem solid rgba(255, 255, 255, 0.78);
+}
+
+#filmSix {
+    background-image: url("../img/peacemaker.jpg");
+    background-size: cover;
 }
