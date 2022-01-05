@@ -16,6 +16,10 @@ body {
     background-color: black;
 }
 
+/**
+Menu
+ */
+
 h2 {
     width: 100%;
     font-size: 2rem;
@@ -125,11 +129,11 @@ input[type=text] {
     flex-wrap: wrap;
 }
 
-#titleToday {
+.titleToday {
     width: 100%;
 }
 
-#titleToday > h2 {
+.titleToday > h2 {
     font-size: 3rem;
     width: 100%;
 }
@@ -245,7 +249,7 @@ input[type=text] {
     cursor: default;
 }
 
-#add {
+.add {
     width: 5rem;
     height: 5rem;
     background-color: rgba(0, 0, 0, 0.61);
@@ -255,11 +259,11 @@ input[type=text] {
     cursor: pointer;
 }
 
-#add:hover {
+.add:hover {
     background-color: rgba(0, 0, 0, 0.31);
 }
 
-#add-color {
+.add-color {
     color: white;
     font-size: 2rem;
 }
@@ -339,4 +343,278 @@ input[type=text] {
 #filmSix {
     background-image: url("../img/peacemaker.jpg");
     background-size: cover;
+}
+
+/**
+Body
+ */
+
+#watch {
+    margin: 2rem auto;
+    width: 68%;
+}
+
+.whatWatch {
+    display: flex;
+    align-items: center;
+    padding-bottom: 4rem;
+}
+
+.whatWatch > h2 {
+    width: 80%;
+    padding: 0;
+}
+
+a {
+    text-decoration-line: none;
+    font-size: 1.5rem;
+    color: #5799ef;
+}
+
+.picks {
+    display: flex;
+    flex-direction: column;
+}
+
+.titleWhite {
+    font-size: 2.3rem;
+    font-weight: bold;
+    border-left: 0.5rem solid #f5c518;
+    padding: 0.2rem 1rem;
+}
+
+.titleWhite + span {
+    font-size: 1.5rem;
+    color: gray;
+    cursor: pointer;
+    margin-top: 0.6rem;
+    margin-bottom: 2rem;
+}
+
+#filmTrailer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.filmTrailer {
+    width: 14.5%;
+    margin-top: 1.5rem;
+    margin-bottom: 5rem;
+}
+
+.imgTrailer {
+    width: 100%;
+    height: 29rem;
+    cursor: pointer;
+}
+
+#trailerOne {
+    background-image: url("../img/bloodyHell.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#trailerTwo {
+    background-image: url("../img/comeTrue.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#trailerThree {
+    background-image: url("../img/nightHouse.jpeg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#trailerFour {
+    background-image: url("../img/cleansingHour.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#trailerFive {
+    background-image: url("../img/censor.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#trailerSix {
+    background-image: url("../img/blackout.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.footImage {
+    display: flex;
+    flex-direction: column;
+    background-color: #1a1a1a;
+    border-radius: 0 0 0.5rem 0.5rem ;
+}
+
+.footImage > div {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    margin-left: 0.5rem;
+}
+
+.stars {
+    color: #f5c518;
+    font-size: 1.3rem;
+    margin-right: 0.5rem;
+}
+
+div > span {
+    font-size: 1.5rem;
+}
+
+.starsBlue {
+    color: #5799ef;
+    font-size: 1.3rem;
+}
+
+.titleTrailer {
+    font-size: 1.7rem;
+    margin-left: 0.5rem;
+    margin-bottom: 2.5rem;
+    cursor: pointer;
+}
+
+.titleTrailer:hover {
+    text-decoration-line: underline;
+}
+
+.titleTrailer + a {
+    text-align: center;
+}
+
+a + .info {
+    display: flex;
+    justify-content: space-around;
+}
+
+p > i {
+    margin-right: 1rem;
+    color: gray;
+    font-size: 1.3rem;
+}
+
+.info > p {
+    font-size: 1.5rem;
+    padding: 0.8rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+
+.info > p:hover {
+    background-color: rgba(255, 255, 255, 0.08);
+}
+
+.circleInfo {
+    border: 0.1rem solid white;
+    padding: 0.5rem 0.8rem;
+    border-radius: 50%;
+}
+
+.hoverCircle {
+    padding: 0.8rem;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.hoverCircle:hover {
+    background-color: rgba(255, 255, 255, 0.08);
+}
+
+.info {
+    padding-bottom: 0.8rem;
+}
+
+span + i {
+    margin-left: 4rem;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+
+span + i:hover {
+    background-color: rgba(255, 255, 255, 0.08);
+    color: white;
+}
+
+.watchList {
+    background-color: rgba(128, 128, 128, 0.28);
+    width: 90%;
+    margin: 0.5rem auto;
+    padding: 0.7rem;
+    border-radius: 0.5rem;
+}
+
+.watchList:hover {
+    background-color: rgba(128, 128, 128, 0.44);
+}
+
+#sign {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#sign > .add {
+    background-color: rgba(128, 128, 128, 0.32);
+    width: 3rem;
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.add + p {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+#save {
+    margin-top: 0.5rem;
+    margin-bottom: 4rem;
+    font-size: 1.5rem;
+}
+
+#signIn {
+    background-color: #f5c518;
+    color: black;
+    font-weight: bold;
+    padding: 0.8rem 2.5rem;
+    border-radius: 0.5rem;
+}
+
+#signIn:hover {
+    background-color: rgba(245, 197, 24, 0.92);
+}
+
+#underline:hover {
+    text-decoration-line: underline;
+}
+
+#recom {
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+}
+#recom:hover {
+    background-color: #1a1a1a;
+}
+
+.none {
+    cursor: default;
+}
+
+#fan {
+    border: 0.1rem solid white;
+    margin: 5rem auto;
+    width: 68%;
+}
+
+#filmFan {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
