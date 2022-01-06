@@ -818,3 +818,146 @@ span + i:hover {
     margin-right: 1rem;
 }
 
+#theatherOne {
+    background-image: url("../img/sing2.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#theatherTwo {
+    background-image: url("../img/matrixResurrections.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#theatherThree {
+    background-image: url("../img/clifford.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#theatherFour {
+    background-image: url("../img/355.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#theatherFive {
+    background-image: url("../img/gucci.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#theatherSix {
+    background-image: url("../img/tuche4.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#coming {
+    width: 68%;
+    margin: 0 auto;
+}
+
+#box {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.boxOffice {
+    width: 50%;
+    height: 6rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    cursor: pointer;
+}
+
+.boxOffice:hover {
+    color: rgba(255, 255, 255, 0.51);
+}
+
+.boxOffice > span {
+    border-right: 0.1rem solid #f5c518;
+    font-size: 1.7rem;
+    font-weight: bold;
+    padding: 0.2rem 0.7rem;
+}
+
+.titleFilm {
+    margin-left: 1rem;
+    width: 70%;
+}
+
+.titleFilm > p:first-child {
+    font-size: 1.8rem;
+}
+
+.price {
+    font-size: 1.5rem;
+    color: #f5c518;
+}
+
+.ticket {
+    margin-left: 4rem;
+    color: #5799ef;
+    font-size: 1.5rem;
+}
+
+.back {
+    background: linear-gradient(90deg, rgba(0,0,0,0.6474964985994398) 0%, rgba(144, 144, 144, 0.12) 100%);
+}
+
+#comingSoon {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 3rem;
+}
+
+.titleInter > p > span {
+    font-size: 1.2rem;
+    color: gray;
+}
+
+#comingOne {
+    background-image: url("../img/uncharted.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#comingTwo {
+    background-image: url("../img/screamer.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#comingThree {
+    background-image: url("../img/mort.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#more > h2 {
+    font-size: 3rem;
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+}
+
+#editor {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 3rem;
+}
+
+.list {
+    margin-right: 1rem;
+    font-size: 1.5rem;
+}
+
+.list:hover {
+    color: #f5c518;
+}
