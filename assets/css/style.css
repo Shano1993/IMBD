@@ -383,6 +383,7 @@ a {
 
 .titleWhite {
     font-size: 2.3rem;
+    margin-bottom: 0.6rem;
     font-weight: bold;
     border-left: 0.5rem solid #f5c518;
     padding: 0.2rem 1rem;
@@ -392,7 +393,6 @@ a {
     font-size: 1.5rem;
     color: gray;
     cursor: pointer;
-    margin-top: 0.6rem;
     margin-bottom: 2rem;
 }
 
@@ -978,4 +978,136 @@ span + i:hover {
     background-image: url("../img/squidGame.jpg");
     background-size: cover;
     background-repeat: no-repeat;
+}
+
+#people {
+    width: 68%;
+    margin: 3rem auto;
+}
+
+#peopleCircle {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.celebrity {
+    width: 20rem;
+    height: 20rem;
+    border-radius: 50%;
+}
+
+.name > p {
+    text-align: center;
+    width: 20rem;
+    font-size: 1.5rem;
+    margin-top: 1rem;
+}
+
+#celebrityOne {
+    background-image: url("../img/nicolette.jpg");
+}
+
+#celebrityTwo {
+    background-image: url("../img/courtney.jpg");
+}
+
+#celebrityThree {
+    background-image: url("../img/eddie.jpg");
+}
+
+#celebrityFour {
+    background-image: url("../img/kate.jpg");
+}
+
+#celebrityFive {
+    background-image: url("../img/elizabeth.jfif");
+}
+
+#celebritySix {
+    background-image: url("../img/eliza.jpg");
+}
+
+#news {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+}
+
+.new {
+    width: 33.333%;
+    height: 13rem;
+    display: flex;
+    cursor: pointer;
+}
+
+.new:hover {
+    color: gray;
+}
+
+#imgCele1 {
+    width: 25%;
+    height: 100%;
+    background-image: url("../img/michael.jpg");
+    background-size: cover;
+}
+
+#imgCele2 {
+    width: 25%;
+    height: 100%;
+    background-image: url("../img/yellowstone.jpg");
+    background-size: cover;
+}
+
+#imgCele3 {
+    width: 25%;
+    height: 100%;
+    background-image: url("../img/vanessa.jpg");
+    background-size: cover;
+}
+
+.description {
+    width: 75%;
+}
+
+.description > p {
+    font-size: 1.7rem;
+    margin-left: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.description > span {
+    font-size: 1.2rem;
+    margin-left: 1rem;
+}
+
+.spanNews {
+    border: 0.1rem solid white;
+    border-radius: 2rem;
+    padding: 0.5rem 1rem;
+    margin-right: 1rem;
+    margin-top: 1rem;
+    cursor: pointer;
+}
+
+.spanNews:hover {
+    background-color: #1a1a1a;
+}
+
+#around {
+    margin-top: 5rem;
+    padding-bottom: 30rem;
+}
+
+#recently > h3 {
+    font-size: 2.3rem;
+    margin-bottom: 3rem;
+}
+
+h3 + p {
+    font-size: 1.5rem;
 }
