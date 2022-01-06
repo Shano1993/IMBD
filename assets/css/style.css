@@ -676,7 +676,7 @@ span + i:hover {
     background-color: #1a1a1a;
 }
 
-#exclusive {
+#exclusive, #explore > h2, #exploreMovies > h2 {
     font-size: 3rem;
     margin-top: 5rem;
     margin-bottom: 3rem;
@@ -743,3 +743,78 @@ span + i:hover {
 .padd {
     padding: 1rem;
 }
+
+#explore {
+    width: 68%;
+    margin: 0 auto;
+}
+
+#prime {
+    font-weight: bold;
+    font-size: 1.5rem;
+    border-bottom: 0.2rem solid #f5c518;
+    width: 10%;
+    text-align: center;
+    padding-bottom: 0.8rem;
+    margin-bottom: 1.5rem;
+}
+
+#prime + p {
+    font-size: 1.5rem;
+}
+
+#primeVideo, #theather {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.screen {
+    margin-left: 1rem;
+}
+
+#primeOne {
+    background-image: url("../img/wheelOfTime.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#primeTwo {
+    background-image: url("../img/matrix.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#primeThree {
+    background-image: url("../img/being.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#primeFour {
+    background-image: url("../img/loveActually.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#primeFive {
+    background-image: url("../img/matrixReloaded.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#primeSix {
+    background-image: url("../img/expanse.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#exploreMovies {
+    width: 68%;
+    margin: 0 auto;
+}
+
+.show {
+    margin-right: 1rem;
+}
+
