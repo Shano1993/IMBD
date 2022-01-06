@@ -961,3 +961,21 @@ span + i:hover {
 .list:hover {
     color: #f5c518;
 }
+
+#editorOne {
+    background-image: url("../img/filmOne.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#editorTwo {
+    background-image: url("../img/filmTwo.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#editorThree {
+    background-image: url("../img/squidGame.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
