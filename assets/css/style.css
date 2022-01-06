@@ -998,6 +998,7 @@ span + i:hover {
     width: 20rem;
     height: 20rem;
     border-radius: 50%;
+    cursor: pointer;
 }
 
 .name > p {
@@ -1129,6 +1130,7 @@ footer {
 
 .logos {
     font-size: 2.5rem;
+    cursor: pointer;
 }
 
 .tag {
