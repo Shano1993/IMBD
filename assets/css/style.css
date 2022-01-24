@@ -106,7 +106,9 @@ input[type=text] {
 #slide {
     width: 65%;
     height: 55rem;
-    background-image: url("../img/betty-white.jfif");
+    /**background-image: url("../img/betty-white.jfif");
+
+     */
     background-size: cover;
     cursor: pointer;
 }
